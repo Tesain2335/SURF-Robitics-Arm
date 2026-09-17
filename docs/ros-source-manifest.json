@@ -1,0 +1,1294 @@
+[
+  {
+    "path": "ros/src/agx_arm_ros/.gitignore",
+    "sha256": "aceb437cc5b698f4e9cf6e4d639e296af7466fff0ca0357d71d605f80aeff970"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/.gitmodules",
+    "sha256": "9a1cb4b5cfb8d3fa6c085bc164f6e5b39eb606b9b484a98412985bb454364fac"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/LICENSE",
+    "sha256": "247944c63de1573653722ba784f96123da267105b7b48577e0c8826a24b809f6"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/README.md",
+    "sha256": "5940158e860e548efb6f2d71cad4b2a82374a54d9f2f868461296881dfcac9f4"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/README_EN.md",
+    "sha256": "165372d2f85e80b7cc8ce048264a68e6ed36989dba0c110a753680ca957b58a0"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/.gitignore",
+    "sha256": "758af68311437be79a4d8feb72e9ca7cd7a05af71fc2aa96f52ec1b6e4f7918b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/LICENSE",
+    "sha256": "247944c63de1573653722ba784f96123da267105b7b48577e0c8826a24b809f6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/README.md",
+    "sha256": "be3b42a26d2ba27de082ddee511a6c511edb22add5d2e8e8436338e91fddee6a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/README_EN.md",
+    "sha256": "7af8b602985487ecc33c163284d6e6957077b3c06ea35920b36bab3b67cf0523"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.gitignore",
+    "sha256": "98e86f9cb1d1aff3638e1b9d3c1565d44daacb67c2dfc81158c3bd1503f1b2fc"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.pre-commit-config.yaml",
+    "sha256": "9c5833c20dc376a3dc30f049c7dee0a82ed9b508f2a2fd4fba52f9a87fd303db"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/CHANGELOG.md",
+    "sha256": "38af8d6978e03f1deb0d8bb99ad8a59c2a088bd4e7484fe7f5660497a665760b"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/CODE_OF_CONDUCT.md",
+    "sha256": "e637fe971e20b34f8f09617e0215ecbbcab6209a3d16bd3ed9d9d519ae434704"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/CONTRIBUTING.md",
+    "sha256": "897d9268e49dc2730ae7dc83fe84ffb617e0b8786a6bc757bf09e1aad9ce54fc"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/LICENSE",
+    "sha256": "b985eb92333b08a685ad5c0ce3a361ba4e2882880e5607312a5677c97ecc4b05"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/package.xml",
+    "sha256": "eb2263ddcf71337f11db9f9e7782ad65873c7ff589394d7bc2e123460b542986"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/README.md",
+    "sha256": "865afba639c1ed5db4ba7c9442b020efef754e4791ebfdbe7dbdc789494cc87f"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/requirements.txt",
+    "sha256": "059c2d37b4f26c437b2734e4f17cac0a4447515be74fcf0cb08c56070e9f31ad"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/setup.cfg",
+    "sha256": "da4b294a7bc1e35828a309cb9d3858157c8377e0c0b5a072ec26742a2c4083e1"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/setup.py",
+    "sha256": "010848870f949be42af4b7acde54c845daa6e188866a2551898707aed3eb7c89"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/docs/CAN_USER.md",
+    "sha256": "dc957d1f237ae340772b55410230d4d37a2670b1b866b4553fbef7382f5ebb59"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/docs/CAN_USER_EN.md",
+    "sha256": "46b07a71b6188005c750a550ccd4d7175b64195e328ced69b0451a307362d8ff"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/docs/Q&A.md",
+    "sha256": "16b62117da1a040bd7cf8f06046bb3f46aab1213f8d8e71446271712fdc5f95a"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/scripts/agx_arm_install_deps.sh",
+    "sha256": "f3f1bc940d3dc4bdc1994af09e30231efd8e353d78763de66543144bdcda0384"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/scripts/can_activate.sh",
+    "sha256": "8b1c5d150bc39c07970ba9e6607fbb7a3bda3623fa55093faf4a0b58bc7a91a4"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/scripts/can_config.sh",
+    "sha256": "cef4990338ba9008d1132bf0d04170a1d6ccdfa22cd481d14e1287d20d592167"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/scripts/can_muti_activate.sh",
+    "sha256": "6d0336c3835d37732f23ebf1ccd6a731a9a0ad54e1b491ae20fba85ed8ad01af"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/scripts/find_all_can_port.sh",
+    "sha256": "e8da66f53fd09bf6526b4f7219ecbd44cc92dd0831d1be1c02087f32f385eb3f"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/cmd.md",
+    "sha256": "7e47952c284551f3bbe1f8f6d2eafc81d322d2aac18a0f56f99932b1b37ede16"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/assets/pictures/piper_rviz_tcp_1.png",
+    "sha256": "b0ad274ab5d8f8cff0571b84b85f2d8b581903625392b32b72780e5779015f15"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/assets/pictures/piper_rviz_tcp_2.png",
+    "sha256": "24114b15356605d479738cb4a2b56fa22d5b1c18925b0ce772d41b9ed1cabe9c"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/assets/pictures/piper_rviz_tcp_3.png",
+    "sha256": "0abaee3e2ea5cebdff941f062d0e4b0972b6e809c940143c27e83ab1d149b3f1"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/assets/pictures/piper_rviz_tcp_4.png",
+    "sha256": "a50747c94aa74f08d85f4863499858bbd990f997c970e325fc0c47833c0075b4"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/docs/tcp_offset/TCP_OFFSET.md",
+    "sha256": "ab64f94b1e3a990a146c3a2b25bb685346d4e8b31c42b2d82877d35833b9bb40"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/docs/tcp_offset/TCP_OFFSET_EN.md",
+    "sha256": "e7cbd889e624b165a8179dda20231900431916575aa0666d6a2b14b7ec8613a1"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/package.xml",
+    "sha256": "c79cdf448367733797a6bdd4749062844c9a92c54672fb16b4b18e3f4fc85527"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/setup.cfg",
+    "sha256": "b574420044da35b3b98846fd8082aec041a3c480fd7353dbc42522261bab0f97"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/setup.py",
+    "sha256": "26e60146021ecc86506c2230ed7b968ee58159b2b56b60fbd02b2e8db502799b"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_description/CMakeLists.txt",
+    "sha256": "ca43dfa8af1b5c7eda5f62c806501974fd6546bce29271fd692cd4b1ac0a1fcf"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_description/package.xml",
+    "sha256": "dcbae4fe1365bfd0fab5d3d02e02c15a8d793b86f0052d1197b56da40ceb1a07"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/CMakeLists.txt",
+    "sha256": "24e87f7e0c296275b7291a422918a14406e7e11b33627c98e3db736930ad6242"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/package.xml",
+    "sha256": "ae2e0703bdf62c90f9ef9c1e3cacb333bbd53f397f88bfff163512241708ad98"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/README.md",
+    "sha256": "15a08ad22f4dac3acd695809ace6e8fcfb3b3448d939df85cd661b5a9a7564b3"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/README_EN.md",
+    "sha256": "1515538280ae504e861ef91a09a7118a2a02f5b4f36376364670923d0ddfdbd7"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/CMakeLists.txt",
+    "sha256": "8cae7b9a1e1c0f0d0d4c1745e5399c2e428461cf5846709689a3834817a57749"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/package.xml",
+    "sha256": "ef1e58a43676989cab3ca127244676071db6e193effbddc404c0dcc308891d00"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/agx_arm_ctrl/agx_arm_ctrl_single_node.py",
+    "sha256": "39d7507328a4c06c3ea1053e74156c0597699efb9d5d9ece98fdeadce346f896"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/agx_arm_ctrl/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/launch/start_single_agx_arm.launch.py",
+    "sha256": "c204a70761eac7e444d92345151678ba8fe9d1a8c9ca2feb63d595c501953ef3"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/launch/start_single_agx_arm_moveit.launch.py",
+    "sha256": "cb7d446daadeb6c5573ea5fbdfec3f430a2867dd0f5740b5fdb1cb2f9088ccfe"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/launch/start_single_agx_arm_rviz.launch.py",
+    "sha256": "feb2e972584d3b532c50d720f216f382098772c3f1be41e92ad33b9c983d5de2"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/resource/agx_arm_ctrl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/test/test_copyright.py",
+    "sha256": "ea71bbbc6247b5c14d176ed09f39ee274d563cc9b2ec355828ea451ceff31757"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/test/test_flake8.py",
+    "sha256": "37a813a0507f0ce51a2d0b57312d2cc078a0307a3ca85580ea801b0d2f9755d2"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/test/test_pep257.py",
+    "sha256": "e8b88d49ee296987b1b40069f81019b5fa09b1aa1bfee9a1faae45bb5cf53eda"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/agx_arm_ctrl/effector/agx_gripper.py",
+    "sha256": "1e2abe08299a5dd5c665e217a1b756c217d7413ee90efc48c39e40d88f28193a"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/agx_arm_ctrl/effector/revo2.py",
+    "sha256": "a600df4437a628a780fbb93a7bda9d9ac5dcc7a5542e22a7abe90a5cfdcccf05"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_ctrl/agx_arm_ctrl/effector/__init__.py",
+    "sha256": "562caef78dc4319e1c919c53619d62f567a571e130c30a9dcb795a06003a365f"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_description/launch/display.launch.py",
+    "sha256": "bb295278f287c9cc44ade04a1eca78839f061978c78c64a5dcd6fa6688f64dc6"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_description/rviz/display.rviz",
+    "sha256": "3c2d6b540eb22cd62290870d983080e603983cd84a19249eb42abb7f6606b969"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/agx_arm.ros2_control.xacro",
+    "sha256": "ce846c35053787381c66fe35cb7bb2246cf301f9bcfb17ac12cc04b79c79402a"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/agx_arm.srdf",
+    "sha256": "3c8043a066e7225a5191fd98abf1e2fd19a8423fa3a67d554b62846886bfd0db"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/agx_arm.srdf.xacro",
+    "sha256": "6780a019069957044dfc2e03e013b2e78885156dd43e408d5889ac48718f3d06"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/agx_arm.urdf.xacro",
+    "sha256": "ab4b8b16f8ce532a9a448f4032befc3cce85377671a55e2bc560bad74d817443"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/initial_positions.yaml",
+    "sha256": "7b58ace078698e6f0fb4de7a6e74ea71fd4fa6e85e2a6d0263e54873cbbe46e5"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/joint_limits.yaml",
+    "sha256": "e88ab639f70befb7f573c426c3cb853f22889ce1c2096d385d83226bdf4a57ff"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/kinematics.yaml",
+    "sha256": "45decb66f2b4b1e26378f3f1fffb4854e8acc18a929dc04602f1acefc286f394"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/moveit.rviz",
+    "sha256": "95e6b0cfe58fdc9e754ccfe648ea6ee630596c2c0114bb5b3304771b9b93b0f8"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/moveit_controllers_gripper.yaml",
+    "sha256": "a2d55027329e5d4d05b38d0820dc229fa02b701b563cf8e8d2587b29573c7192"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/moveit_controllers_none.yaml",
+    "sha256": "95b895d5882291361b36574e2bf18824290d21000f2c3f64469cc71d89d7f019"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/moveit_controllers_revo2_left.yaml",
+    "sha256": "32e5fc84284476e578684632574002f9f900534c02cd1a0125d41dc40a25ed50"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/moveit_controllers_revo2_right.yaml",
+    "sha256": "d7458f4762fa62eaff95300d9177f4a079ea4db7417b427ab07f2929b158dd74"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/pilz_cartesian_limits.yaml",
+    "sha256": "fed80b213b77f13fb7b913d703609a66caa72ccb0617b41e83d3057e31749047"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/piper_servo_config.yaml",
+    "sha256": "80c054fa68857f60a811989cfb8d5642a206ae53781bcbd70101f83f2072dcb6"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/ros2_controllers.yaml",
+    "sha256": "6726663eb55efb4685e3b43cefdbe4156a8911e845e4a8f39c31c2ce76d749b1"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/ros2_controllers_nero.yaml",
+    "sha256": "c7db7ffeec222e81f7ab9c901e3d5b9a2fd8508363b01e8f7bd5f94c3cca1012"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/config/sensors_3d.yaml",
+    "sha256": "f847bb31631495d913ec41f95a736d339cc73004ae31c48669707dc5baf9b8f1"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/demo.launch.py",
+    "sha256": "6985a097c688f266583519d818b6ce0346b71bdc9845e75335c0e80d3205616f"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/moveit_rviz.launch.py",
+    "sha256": "5b52ea10de0635fecbcb7624f451b3481690a185fef446183deb27702c355c55"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/move_group.launch.py",
+    "sha256": "22e077994ad9dfe3d30eaf6f41d59d7fec295b1a0ff852a3c8913613a2092d77"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/rsp.launch.py",
+    "sha256": "59e9fc23df7d1bd0d772cabb0153f13efe5efecc2257e6540ef74aaa2a994626"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/servo_demo.launch.py",
+    "sha256": "c8126ae5158173996fe0906c2a3e614451f6018b7d4d5db6dc72ad2932be21de"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/spawn_controllers.launch.py",
+    "sha256": "d8ddbf913726e4de075138a6b9975e1e1c7feaaf3206d913f61788e3855350c4"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/static_virtual_joint_tfs.launch.py",
+    "sha256": "180c255437239a69a2c407dde3e83127093c5217e3ec35e98b3e5d02e97fd143"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/warehouse_db.launch.py",
+    "sha256": "6531907c3f49a3cf128a8cbe8c49a3ef11b61014bf1033c586148c40fbe400fb"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/launch/_moveit_config_builder.py",
+    "sha256": "72d2df20dd814735c0c8025d45f66afd1d059a5cb7b49469ec786922fffa571d"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/scripts/agx_arm_control_gate",
+    "sha256": "5dd444e1f686355939faad14b8e613489227378858442b16c9e90358a4d3887e"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_moveit/assets/pictures/piper_moveit.png",
+    "sha256": "07c24c13b12955d9c44b8c49d3b28186fda9cf8364ccaa74c9caedebfa70301d"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/msg/AgxArmStatus.msg",
+    "sha256": "066ba0eafefee0ac2b9150bdd517e4d0f467bccf03c79ff2d89b7b07a3627852"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/msg/GripperStatus.msg",
+    "sha256": "cd42a3991cbfe62d42b482241f1b05ae294ec88cce0125f0485950c087ea1d0b"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/msg/HandCmd.msg",
+    "sha256": "3efcfe47046d40c2154ffc424e517474d5862e75726f1fc678622cc1d22ef681"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/msg/HandPositionTimeCmd.msg",
+    "sha256": "7d7e65d4e71f0f63c625f0cf39138bef22f6f176cb929ddccb63905d7b55358b"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/msg/HandStatus.msg",
+    "sha256": "c7e2430ae6f9e5e620bda11caa33c01c0f9cf67577975441ce18f77f98fe179f"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/src/agx_arm_msgs/msg/MoveMITMsg.msg",
+    "sha256": "b6a0cea71c5b344fd77e5fe761efef84fcb1c48cf8ceb990a5dd5065474d9841"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/gripper/test_gripper_joint_states.yaml",
+    "sha256": "138630451a4514d0f664b609997211b4da7afdca49dde9f81a7503b837e8c855"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/hand/test_hand_current.yaml",
+    "sha256": "7ad425b56294b0f929b33da6e5df809026af39fdb852a1fffa0a1776483011cd"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/hand/test_hand_joint_states.yaml",
+    "sha256": "85ef4a5d3d03ca72233f41105571d151a752ab61f0264effe930b4eebb32e781"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/hand/test_hand_position.yaml",
+    "sha256": "c10a7649abdd1c2dc8266249ae1a1e41113304be9376da6d7644cd955af6b497"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/hand/test_hand_position_time.yaml",
+    "sha256": "9545aff3e7529f713aae55c78405b24eb58d12b5e643a7d8a64510e5dee0f99c"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/hand/test_hand_speed.yaml",
+    "sha256": "360df1f04d66e343aa477595ee918eaaa6d9e7403a25a05b2cdbd71ccb9721bd"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/nero/test_move_c.yaml",
+    "sha256": "7e993ab637560a9590a5c8f5cce87fed04b8c23d421ff4403f5a26b13f2bfbff"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/nero/test_move_j.yaml",
+    "sha256": "1fcc8fa48b0be8e2b3cb6e9853ad96153e2f100a18223cb1a82e714103fa3a60"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/nero/test_move_l.yaml",
+    "sha256": "09906b0bd79eed3f44e46b8ffd076b96d60373c9bfe4dae4252759f781e85e33"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/nero/test_move_p.yaml",
+    "sha256": "07e81d10ca033996959a2f0191d3189ba1499d96d3ff62cdddc302345a749eb3"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/piper/test_arm_gripper_joint_states.yaml",
+    "sha256": "367776b56c246223df11c91f3b09ca0060ea769028575db3df36acaeb524a4a9"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/piper/test_arm_hand_joint_states.yaml",
+    "sha256": "8acbe75d94c063187893d8013ce6c439a5ef35981e6a711e216b182698c72bfb"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/piper/test_move_c.yaml",
+    "sha256": "83f606878a1808b342a900d641494497c159b7f47e1dd811c8738e6e3e9d4b69"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/piper/test_move_j.yaml",
+    "sha256": "4f222ce40708b988293e55a4e67830276937f44ef061e2abaf98369a5088041e"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/piper/test_move_l.yaml",
+    "sha256": "5f6407dce9eb9ea7597f2af9a7b81f221fd23eceeef78a944593d4988ce44c23"
+  },
+  {
+    "path": "ros/src/agx_arm_ros/test/piper/test_move_p.yaml",
+    "sha256": "374d78b35d5c4d895ffcf261987bc33abf512332c6f0f45dd3c52a722d19f454"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/base_link.stl",
+    "sha256": "540462fb56e52091daa3cd1ad3acc3c19a43f120b2f11bae5a69b32b08c738b6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/gripper_base.stl",
+    "sha256": "041b1c8ffa29bff9a5e9350ec9d3e1a0129a5abcba1f347b29b5ad7367ba5f5a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/gripper_flange.stl",
+    "sha256": "1ae6d1c5af001582a3328564839e8eb5f2acec02e7e2b19e65fc3c43f8a9c95a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/gripper_link1.stl",
+    "sha256": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/gripper_link2.stl",
+    "sha256": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/link1.stl",
+    "sha256": "0e38bf33ce41f04d7e70e471768c00fa144ba4016a878b9a6d8303c319736e09"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/link2.stl",
+    "sha256": "fc9eb85db9fbd351c9f6e119f5fed33c6f0dd3bc3b11698a0f96aaeb2d36c721"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/link3.stl",
+    "sha256": "44c70f731ad5067d608ebebc9e59f3c231988f992dfac6cb01ee7a6bb4b053f1"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/link4.stl",
+    "sha256": "47242e9b5d8b06c912261756f24dddb1e7f54ac6e718232a25889115298b966d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/link5.stl",
+    "sha256": "dc497f5a9bab2d0d314250134d4ec86617abea7205d122db41b765acdb86ae7e"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/link6.stl",
+    "sha256": "66417d30596e33c890f4f141781023bd3ea15709a502e7f59b30f6676f556022"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/link7.stl",
+    "sha256": "70a2f415358f9e46088673c92bfe78ca5b1072dd73b7ea24464ba3ebb4c3e647"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/revo2_flange.stl",
+    "sha256": "ddef9ff5daab9f549c1901daefd0e601abb731b4eb49d9c9fb10e2a78d0af4c3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/urdf/nero_description.urdf",
+    "sha256": "c297c4bd2caeff44c673ae69070fc80f950510c0cb33cfa8b81b5bc774e91278"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/urdf/nero_with_gripper_description.xacro",
+    "sha256": "3d7a7bd643156fbef72fe4a418a27a4804e22b89e1c9827ef5af2db3d9fff066"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/urdf/nero_with_gripper_flange_description.xacro",
+    "sha256": "eba3a5e7b7ac82a9d6fd376a8fc9314e0b65fcf07d2dff43c9a34822dd53f44b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/urdf/nero_with_left_revo2_description.xacro",
+    "sha256": "227440e23cbdf3c0144b67eedfe855327eb6922ce56bd4e74828673178abe0c7"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/urdf/nero_with_revo2_flange_description.xacro",
+    "sha256": "c469fc2695312a4a94b0d7f262601e24bac74ece8624f3c55da5c2c0d238a702"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/urdf/nero_with_right_revo2_description.xacro",
+    "sha256": "a7dfcb5e3c3439629595f5682ba4bdfb53151d7a215edf1e69813d5e9b71ef25"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/base_link.dae",
+    "sha256": "a369d27a339834e4f59cd2b16065d62a37cb8e1bdd503e150787149e998f03f6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/gripper_base.dae",
+    "sha256": "92f7c3116b219168c36678a44f56f49c1e63fc080129f8a27fad213727ea8a7d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/gripper_flange.dae",
+    "sha256": "93b4fd381b2edd42a3ec946567027aa3392c65be2f3f00c5711b86f4070980fa"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/gripper_link1.dae",
+    "sha256": "b4aaf0e024d09eb0454e70e0c5092638edcf7da7c253d1effdeeaec46f76427b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/gripper_link2.dae",
+    "sha256": "0da1350898b2787b76b84698253aeb1efd2ddb6360b2fa2ae03ecff389883af8"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/link1.dae",
+    "sha256": "8aafc23509ce76d9c6fdcf8ef49931a8def1b5bfd1f974cbe677031334da9404"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/link2.dae",
+    "sha256": "00b3eb4a91c8efd95f3c161ee5318b66cb3e2fa55dac5c139077cdd67463c2ac"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/link3.dae",
+    "sha256": "cd3f0f08ce02aa36bddc0c89efa7d040b927e589e1816da1fd14417511d2b7bc"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/link4.dae",
+    "sha256": "ea607e157c173ca81d0982a24f2fdd7e98c695d94e0055b58028ce36b09b8708"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/link5.dae",
+    "sha256": "7733ac4afd30e38360e7a7e833b0ed6192d6fd20c99062b636a236f06b8bfb97"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/link6.dae",
+    "sha256": "260e1808d888da15e7e4e417a3ab0340f2223a5ed4b37e330278862096ed6f85"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/link7.dae",
+    "sha256": "8c2498c59bcf574386cbd7e01fd5d81ff2483e26ae2f0e919deec62a04bce77d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/nero/meshes/dae/revo2_flange.dae",
+    "sha256": "92fca5a013ca0ea454fb70c51a11531051e59356ebbba39f2c9466806666509f"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/base_link.stl",
+    "sha256": "fd4a3d6d0266205fe3f725f048645be66592c23564db22e08b0807d5569b2c64"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/flange.stl",
+    "sha256": "f9ce752f93a6598858a779e3d8755a09e466b588efcffc3a1c3953773753a22b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/gripper_base.stl",
+    "sha256": "0b839dc0bcb7d94e3422c74f6396b54a0441ba4836448ab5586e7f372d1bdbf3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/gripper_link1.stl",
+    "sha256": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/gripper_link2.stl",
+    "sha256": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/link1.stl",
+    "sha256": "9ee6e1d67c0241f42a0dbaf5c676d19230375ed078ee1943bb8c4c37ab303d14"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/link2.stl",
+    "sha256": "0d37675b699b643f2e15348de99aed535fac10dc5f09a79b8e4b0acfaf4e0378"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/link3.stl",
+    "sha256": "e8ae51f17c0c7f6d67b753922e2cc269f5e8372a65734f859231639a64fe8fad"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/link4.stl",
+    "sha256": "efa33022976218f246f736a6133494b5d0e5486e8b50b52900c42f285ae85558"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/link5.stl",
+    "sha256": "a1c69d1c7f6f8c60e2c82331c0f444725200ed4053d3e5ec23aa82cb5db5b29f"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/link6.stl",
+    "sha256": "88374973bc3bd9e7389b5853cd6e555af9731c30b658b1ee6f85be34a126cb92"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/urdf/piper_description.urdf",
+    "sha256": "03578cf8f74c6e3d6e5a3e4680a01e00ae0d72efb2d678c680d822ad2c567c11"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/urdf/piper_with_gripper_description.xacro",
+    "sha256": "cfc6a0a44cbbabd1069dd3dacc009cbb27cd24ec9f74681561cbd584b3d6df3c"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/urdf/piper_with_left_revo2_description.xacro",
+    "sha256": "b42ddb1f3f8fd166ca88d35b8d1c71200cd552d60d394af714970a76b4e9a2a6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/urdf/piper_with_right_revo2_description.xacro",
+    "sha256": "9ff50f09e29e508a3f3feab40d4db48ce5833518db8594b5811ee0de8ff459fc"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/base_link.dae",
+    "sha256": "99cd5083e485e3eb739d967c57451f11e32e80b9f4f293815ba3b546d99bdc3c"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/flange.dae",
+    "sha256": "421c3e20c6109df3c96c5ce18ff0b2609b6604135ff790e4bfc1d9a281b0701a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/gripper_base.dae",
+    "sha256": "aaea10ec06709d6a3343dd3378553eee3df40b43ee276df10c5b68ac7f61bae2"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/gripper_link1.dae",
+    "sha256": "b4aaf0e024d09eb0454e70e0c5092638edcf7da7c253d1effdeeaec46f76427b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/gripper_link2.dae",
+    "sha256": "0da1350898b2787b76b84698253aeb1efd2ddb6360b2fa2ae03ecff389883af8"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/link1.dae",
+    "sha256": "ea11f3382f6b32ec6d2283db4320ba2065ee1d24358f9b236ce71cfd4cd352cd"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/link2.dae",
+    "sha256": "f6a723ff09c605a4bab19c1581b8879461967afe5626a3b7ca0a884e5f11a869"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/link3.dae",
+    "sha256": "17cee6f92b741f21e29e4a3a3f600ba8093af3e1f61ae717747e03251a76982c"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/link4.dae",
+    "sha256": "2a4d28b04341c22fdc38e9fc576c2386bf6f1e8ef0526d5b2cf179ea9ea650b3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/link5.dae",
+    "sha256": "fc7253ad4128731fded02700d5f35b94a30f3c219cd2b75b62b0abbd81bf7bff"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper/meshes/dae/link6.dae",
+    "sha256": "92f67e27b573969b4a1806ff3bc427bf9219c8ff78fec80d91ce3f32d69b1b9d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/base_link.stl",
+    "sha256": "11105df3b27e8ba50429f75334abae7d37eb13fc54d7a711ccd16968d2b05d42"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/flange.stl",
+    "sha256": "f9ce752f93a6598858a779e3d8755a09e466b588efcffc3a1c3953773753a22b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/gripper_base.stl",
+    "sha256": "0b839dc0bcb7d94e3422c74f6396b54a0441ba4836448ab5586e7f372d1bdbf3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/gripper_link1.stl",
+    "sha256": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/gripper_link2.stl",
+    "sha256": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/link1.stl",
+    "sha256": "55ed2dc7e060800e510505c23f7dc5d1f3d6e7b21d70a689e471fb525add4b1f"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/link2.stl",
+    "sha256": "4b60473539386cd5d81090eee3dbc8c8a10b3d81798b73da1ca4aed97990c49e"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/link3.stl",
+    "sha256": "4ea19f971be435ede84f647c11408d9de6c230d3a9ac7e06582cbc8102bf3dc7"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/link4.stl",
+    "sha256": "2077c29f1f370aaaa922be19be1610ce6a0a2553e0953a75fcb703bdb3fc2c07"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/link5.stl",
+    "sha256": "964670daa2832688d2322d6d67029de555d8e626211fea30f68e90b96c6d0fe3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/link6.stl",
+    "sha256": "9222c39f2291d7b9839b1254b06a22876b19c071608041462a69bf7b565704a3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/urdf/piper_h_description.urdf",
+    "sha256": "c8b51de5cd2d3dc76a5ca88ff270960d2b99449027ffade9446cca2f9f787d07"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/urdf/piper_h_with_gripper_description.xacro",
+    "sha256": "f60a927d199b36d33d0244fb07f93ae50e215886e6275d3ec5a6d7f7f54758dc"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/urdf/piper_h_with_left_revo2_description.xacro",
+    "sha256": "fb59cb1ed6abe8d41465ebdd7777fac39344010998f84b561465c8235ff3dbfe"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/urdf/piper_h_with_right_revo2_description.xacro",
+    "sha256": "417a77da56d87e2f44bb3cf42a81f3a720e551bf663a86406dd7f5586e8a907e"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/base_link.dae",
+    "sha256": "760dcbf1f4626de180ab34cf07ae132bc15f97ee6e44d87b4419ca60be679fe4"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/flange.dae",
+    "sha256": "421c3e20c6109df3c96c5ce18ff0b2609b6604135ff790e4bfc1d9a281b0701a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/gripper_base.dae",
+    "sha256": "aaea10ec06709d6a3343dd3378553eee3df40b43ee276df10c5b68ac7f61bae2"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/gripper_link1.dae",
+    "sha256": "b4aaf0e024d09eb0454e70e0c5092638edcf7da7c253d1effdeeaec46f76427b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/gripper_link2.dae",
+    "sha256": "0da1350898b2787b76b84698253aeb1efd2ddb6360b2fa2ae03ecff389883af8"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/link1.dae",
+    "sha256": "69e96dab5205fbf5ec76505562943a1fe52300471dda8e4e57657ffbc2c1bbcf"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/link2.dae",
+    "sha256": "e368523767c0477ff777ed59f591ca445f3e94cb6452867ff7b3a4664f8a76dc"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/link3.dae",
+    "sha256": "df3edeb3b50fea00686adb2ef4c2f646e39deac9452023383ca8187a68915904"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/link4.dae",
+    "sha256": "2c56ffdf3209fe9f3c51a63e784c6b5662ad10af90c4313d458c07bbdcf33475"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/link5.dae",
+    "sha256": "bf6fc9a9ca8ff07bea2bd6e5021a4239c9f315ef867c86c4e6b7639d4b545d9c"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_h/meshes/dae/link6.dae",
+    "sha256": "42d54ac2d771ddad379fd1603edd0d86c74f9b602958337b2c408bc89421a868"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/base_link.stl",
+    "sha256": "fd4c7563638901bd4167246a3b6eae33cfceff8c7fc59e585f297a88a5752bac"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/flange.stl",
+    "sha256": "f9ce752f93a6598858a779e3d8755a09e466b588efcffc3a1c3953773753a22b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/gripper_base.stl",
+    "sha256": "0b839dc0bcb7d94e3422c74f6396b54a0441ba4836448ab5586e7f372d1bdbf3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/gripper_link1.stl",
+    "sha256": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/gripper_link2.stl",
+    "sha256": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/link1.stl",
+    "sha256": "84d753cd2a9dceac19c6870b0d3078a6abf44ea7ca7360fc5a2e8b1fd0b427cf"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/link2.stl",
+    "sha256": "4d15e9870d8a3e9223fba8b304a508842acfc7cf69c4fc74bb3e9c1bf07260c0"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/link3.stl",
+    "sha256": "4581c9901c0aec55f4f02ddd1a4327404344b0a193cd13b383aaa23429dd9ae2"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/link4.stl",
+    "sha256": "c296926ec78349c963ee6f02098cbd7ef460ec14ba6bc5d4a4577c35176c3bbd"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/link5.stl",
+    "sha256": "de4e3c27a806fd4a60232760dfcf584dd20942ac941e0e0705ef23ecef923d2b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/link6.stl",
+    "sha256": "91c70e84f44eb685c65d96ff13d66dc9a894eb14460f0dfaa02be45bdb100f6d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/urdf/piper_l_description.urdf",
+    "sha256": "cb7e3ae7a8139687131306708adcec3e6a3aa64d4656647eb9160fd950616a8a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/urdf/piper_l_with_gripper_description.xacro",
+    "sha256": "b0b7ba1cd0f856ae40546a95fedc243f656ceb1b23d02fd38977314c9e2def80"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/urdf/piper_l_with_left_revo2_description.xacro",
+    "sha256": "99218462eaff2d732856b856fedf58a7e680733aaa450074f5094cfa9fc1179f"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/urdf/piper_l_with_right_revo2_description.xacro",
+    "sha256": "98da80bb6431d7a625f11aa854abc6201abcf17a817458315a8ef6ba495f7870"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/base_link.dae",
+    "sha256": "0e9d7d5533d69c02e7b8a71d457b9a634d1ec15c7d5875f4ddb2ea7a188a3227"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/flange.dae",
+    "sha256": "421c3e20c6109df3c96c5ce18ff0b2609b6604135ff790e4bfc1d9a281b0701a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/gripper_base.dae",
+    "sha256": "aaea10ec06709d6a3343dd3378553eee3df40b43ee276df10c5b68ac7f61bae2"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/gripper_link1.dae",
+    "sha256": "b4aaf0e024d09eb0454e70e0c5092638edcf7da7c253d1effdeeaec46f76427b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/gripper_link2.dae",
+    "sha256": "0da1350898b2787b76b84698253aeb1efd2ddb6360b2fa2ae03ecff389883af8"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/link1.dae",
+    "sha256": "4e6f3ab3f63f03616926d67d38e87824850f6fecc60e9ad2d3870ae45d7770ab"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/link2.dae",
+    "sha256": "5c77ff7d570544a1550aef83aa89b5c1b886a258ca0c7ff270b484a32baa7b5a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/link3.dae",
+    "sha256": "fe20123b83a2e0024280505c66017c69a9bd10f9c39f6b7b8a7bf37ffd2729c3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/link4.dae",
+    "sha256": "7d07ffd61374ceea1de23a058e04f8725142cc543dda157a448175eb837826e9"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/link5.dae",
+    "sha256": "a019c6ebd61251e9b42c6d4df767181f18e134e880b5f21f5a227338f082ccaf"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_l/meshes/dae/link6.dae",
+    "sha256": "42d54ac2d771ddad379fd1603edd0d86c74f9b602958337b2c408bc89421a868"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/base_link.stl",
+    "sha256": "b732cf8a1f8435f51e3ec860f11189c3ec63744d3df008b7d3e9b6505dfc483d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/flange.stl",
+    "sha256": "f9ce752f93a6598858a779e3d8755a09e466b588efcffc3a1c3953773753a22b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/gripper_base.stl",
+    "sha256": "0b839dc0bcb7d94e3422c74f6396b54a0441ba4836448ab5586e7f372d1bdbf3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/gripper_link1.stl",
+    "sha256": "475a7d8db056524d7659fadf5a2c307d62791047b6214d733dfc7846ed1c613d"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/gripper_link2.stl",
+    "sha256": "3f88d534a85e28a33ef7d2061adacbd1d25214aa9325f9e464aad0f9e4b74606"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/link1.stl",
+    "sha256": "60c53c4d5d20c5b663cc4ced2f5e322d2a857baa6e79cef04a33b5f9f7c1e985"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/link2.stl",
+    "sha256": "0316b881cd0bae6c9f8f794fabdee7fbf041f83f2f75980d34b67555fe8a3561"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/link3.stl",
+    "sha256": "c51994fa4ca6a0577cfc65fe5a666ad47ad6af8dc98fbe81b71c4a7fe8ad09a5"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/link4.stl",
+    "sha256": "10b69bde5305c53fbb4a6dc4e910e8604d54d250a969e6cda8128d8244989831"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/link5.stl",
+    "sha256": "fb7ab27270e6b5fa0b2e6df9fa37722062f4ff397cd4f89883d23551bedd0801"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/link6.stl",
+    "sha256": "8c391520fd963fe4f9b46afcde82ceeab2a93b73c01fc5debe039fe632f597e6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/urdf/piper_x_description.urdf",
+    "sha256": "e47b92d15c89ea7f8a9cb825f058e10cb61d56ca6aebf9d2aab11868c9265974"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/urdf/piper_x_with_gripper_description.xacro",
+    "sha256": "497de5cb4e8bbefbe32bf5e18177877e2cdb74af2e6b2fb47bb9156fb0e8e1b3"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/urdf/piper_x_with_left_revo2_description.xacro",
+    "sha256": "dbd6e618d8df60d3f6fe83b13c54400f62ced561034d04dc4f82893e16cbf6a7"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/urdf/piper_x_with_right_revo2_description.xacro",
+    "sha256": "a1650b0fa35c9e9b7e66a7618413ef6e28f75c69abdc06398d58a1920002b72b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/base_link.dae",
+    "sha256": "706008b1e425227d42fb490febb6a54a2a294a39911b8cf4e9ca4b8c61eb42bd"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/flange.dae",
+    "sha256": "421c3e20c6109df3c96c5ce18ff0b2609b6604135ff790e4bfc1d9a281b0701a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/gripper_base.dae",
+    "sha256": "aaea10ec06709d6a3343dd3378553eee3df40b43ee276df10c5b68ac7f61bae2"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/gripper_link1.dae",
+    "sha256": "b4aaf0e024d09eb0454e70e0c5092638edcf7da7c253d1effdeeaec46f76427b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/gripper_link2.dae",
+    "sha256": "0da1350898b2787b76b84698253aeb1efd2ddb6360b2fa2ae03ecff389883af8"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/link1.dae",
+    "sha256": "6448c874d7106738d20cdd044e0e88f86262935f0bc3bdc072c5025bcf47ecfd"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/link2.dae",
+    "sha256": "05ad1975346a330129dbce02131405dba6f51d74d0e5f3a70ec154ef219d9163"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/link3.dae",
+    "sha256": "001b0b97dd514a9f8e6b321e12a8005d17198eb8b60ec443b9bd67251a3790ce"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/link4.dae",
+    "sha256": "cda6aab6dfefb13d5409a691d7486c4253737f114cca9ada67da36a10fb08123"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/link5.dae",
+    "sha256": "8c2a2da46dfe9d13fc8841a990694c77106c27be292fac4fc42a86cd78a2dee1"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/piper_x/meshes/dae/link6.dae",
+    "sha256": "7e6076e2574f042f5067dd431e96486249cffbc8ab292fb66cb68848ad5bab9a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/urdf/revo2_left_hand.urdf",
+    "sha256": "94fbbca18be9000efccfd5f4da335d683f949f5254d7dfc2b5e61e5d7380baae"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/urdf/revo2_right_hand.urdf",
+    "sha256": "2e040f2f45582ab0caf131f0f5857fe8b54ccc02d19d2efcb921170011503ca8"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_base_link.STL",
+    "sha256": "340401f796bbac762cf85d53e6db4be02cce2f06b66fcf8d6ecb5ba883f06afd"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_base_visual_link.STL",
+    "sha256": "d9d2558da8369d2f0993e46eed3d1e2a11b4927ab2b8c1731d460b72fea04e9e"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_index_distal_link.STL",
+    "sha256": "634d5c569628c3c2dbc92932065748ed830fb17ccf933959a5834b2759ab8acd"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_index_proximal_link.STL",
+    "sha256": "1fed32c1a8451282b314579eed3903a288a62524dc7d8b08464fb559261bb580"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_index_tip_link.STL",
+    "sha256": "9f5a11d72375073e8373a02ce604ca99abcb583074ba2f520510b48abc4c5b86"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_index_touch_link.STL",
+    "sha256": "821249c18a0cf66c87aa4029de1f0ce532f03e7a173c951a5121f2df3b301b52"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_middle_distal_link.STL",
+    "sha256": "e0ff6f648bbb7712bbc7f06bacdd3a574cac2e1bc2398383b57da2d76c88932a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_middle_proximal_link.STL",
+    "sha256": "50122ebf6e75698ba2c469efd58e07ad3f82b1a002728cd15802f1c435d54c0c"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_middle_tip_link.STL",
+    "sha256": "ef4ac885d12e603918722c22000a59827f168f276d9c41651ef0d94175113486"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_middle_touch_link.STL",
+    "sha256": "c91b30341a816ac079ec1268c8427ca3a010356002a30b6847b2853a0edf1e6b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_pinky_distal_link.STL",
+    "sha256": "d52822897dcc0de60fff7f2652a7d12a342b47905eff7555eaabcc1bcfcaeac4"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_pinky_proximal_link.STL",
+    "sha256": "9f1408568638fbbec4cf32507d4b233fbd8cdb9c862e07cc7da6cd826497caa6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_pinky_tip_link.STL",
+    "sha256": "56eae1cc71cf6acab0a20c1a8e2e470c9ec96f520386c1ea22f10f51e2dbf758"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_pinky_touch_link.STL",
+    "sha256": "850ad4ad9daf4188aa17f96588fe5541fb0c70be10d714930b3cb816748258a0"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_ring_distal_link.STL",
+    "sha256": "c59b62ef04c9cb436f6a6bac5ae9be985eca0d538bc58380c40c00d16079d580"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_ring_proximal_link.STL",
+    "sha256": "77220c07d5bbc119cb828af89f35cb4cef755bbc98a1cae2dda846268ff59501"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_ring_tip_link.STL",
+    "sha256": "870a5b7890a41c8fb8e91cd0c4f74f01c64778bf33f29c135b0b0431a489cde1"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_ring_touch_link.STL",
+    "sha256": "c2fb7d2c4fb0df91209ab7158d5f17ab59a7aa56522a9e91a3c3884a35ac6ae0"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_thumb_distal_link.STL",
+    "sha256": "99300669452dc8e34d5f62caf31c9c769077af45e0127511cd0c56967fe691a6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_thumb_metacarpal_link.STL",
+    "sha256": "415a75193e7773572b0df8a80fa4e1d187a67901a5ff381a89ee5b7df64735ea"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_thumb_proximal_link.STL",
+    "sha256": "ccffe779ed683ec5c2f24e3776c11a127e341743142ddd8f275bfded76938da8"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_thumb_proximal_visual_link.STL",
+    "sha256": "bcd5279fb8a4d8ba4b06b3d302caa567fde9add81b057943cc6a445abb9e27b5"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_thumb_tip_link.STL",
+    "sha256": "acb6f2d6820d17a22eeb4a02cfc26c8b8fab0ddfdcda8d4d4ef65929275687c5"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_left_hand/left_thumb_touch_link.STL",
+    "sha256": "e31a6aa8faf2be8a6bfc3f222ebe7cf59fb5266487d1d98b86a55a7a2524fc20"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_base_link.STL",
+    "sha256": "2754b59a9132a04a28cf5725d5478599218c9f7dd4b2e13329147e824211ec44"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_base_visual_link.STL",
+    "sha256": "7357830cda11d9749adc1e796aa0e493f8001ac2c21815d40fdc1406a3b3457c"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_index_distal_link.STL",
+    "sha256": "44d4b12f55e85baf77685443aa1f38ae521130a58f0b742920f2a99abc1a1efb"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_index_proximal_link.STL",
+    "sha256": "94fdff414f1c29940495d1f0264a50621340cfc30f9b5365b3490d39ae367f2f"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_index_tip.STL",
+    "sha256": "4af36131feedb7f83a695ff8e7d09a7e8893df96f971b2d363c0d359e3a82bbf"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_index_touch_link.STL",
+    "sha256": "a7f7b054539a858173b3e002be2df5ebc60a3e3d8bdf38e32f490a1475809251"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_middle_distal_link.STL",
+    "sha256": "8f11ee9addab1a1eab40fd765c21389e6f98397166ae5899dc83ddf66f871b3b"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_middle_proximal_link.STL",
+    "sha256": "56d9f019bad093daf93a736596ab4e7d9b17fb3c79e2be4181d909958cf76a37"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_middle_tip.STL",
+    "sha256": "844204b7bcf3de3ad500232e2e30ac15a8ec41728be281d0670c7ad1a2b09e34"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_middle_touch_link.STL",
+    "sha256": "1fdd83c56c7eccb38b1af2d75742f1681d6a4dff93e9f15a37173e22117fecf0"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_pinky_distal_link.STL",
+    "sha256": "14c25fb57059978594ea518860522ae401e3a3602d6a39297c52807620e30bac"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_pinky_proximal_link.STL",
+    "sha256": "1a4ba525880efd4da2bcdfd5d2d69a684a02f8c7c01f8e185adf23f47469d0f4"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_pinky_tip.STL",
+    "sha256": "f632c67971d2d6dc8a5edcfcac4db8b3078e346540270bd89a9e9c783d304415"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_pinky_touch_link.STL",
+    "sha256": "96ed796046634fead6ac789be979e3b013c3a6d32ba866a31ea92f7c3ebf19ee"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_ring_distal_link.STL",
+    "sha256": "40acf67de96d432bbbc0a3eda7bbb292cbd2ea0c5f0c78a9b299cf360f3a9f07"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_ring_proximal_link.STL",
+    "sha256": "89c64252e891bc91567241b74de18d986e20e4e57d74cd10289d7171f6c57dc6"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_ring_tip.STL",
+    "sha256": "c3be3c69a1b7cba72d4b09c8ca4e04f3ad15ef2e47f8212bb547be7487f88022"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_ring_touch_link.STL",
+    "sha256": "f9c0ac36994b014d25b7d5c292cbd39192e5146c8961ded1e8a9702e2d4e62c2"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_thumb_distal_link.STL",
+    "sha256": "f489da4e47935510ffba42016052318f123ef07360fdbbfaadcb0f7d8ddbe28f"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_thumb_metacarpal_link.STL",
+    "sha256": "15464fa122dddc49a56462898777e9e407f22b81abb03d10aba0d95f8fefc83a"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_thumb_proximal_link.STL",
+    "sha256": "17d6f8575ffdc49fd0c8a4525650180a6806ee3fc0a6485f0610040010aeed34"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_thumb_proximal_visual_link.STL",
+    "sha256": "0c415499f0b28609062d1364cd2500cd801a5f4e6a8a2083ae82b8a870404495"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_thumb_tip.STL",
+    "sha256": "0e53267b1a3abdbcb41b190b264f805bf83f650e79ea2c22b4974e404e78e454"
+  },
+  {
+    "path": "ros/src/agx_arm_urdf/revo2/meshes/revo2_right_hand/right_thumb_touch_link.STL",
+    "sha256": "184c29c27b46ea21df210a13af795c49569fcc1b36cd8b8ebe5aa66b4a0f5612"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.github/PULL_REQUEST_TEMPLATE.md",
+    "sha256": "59800b3d0af9d0333909a94e9e4db2fc38b6e29f27f3f6846e4683e3c400121f"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.yamato/sonar.yml",
+    "sha256": "8122a5516b892952ad99384d5bc7d657c841a14c9cd58224100612a08f884bbf"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.yamato/yamato-config.yml",
+    "sha256": "bb093e3a13b5a0654659fd5d4c7be583e2e60b2a564948315da6c63e042e281d"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/launch/endpoint.py",
+    "sha256": "b49d2155c6f3989af1c084b8b4a0225a1160ee531031687bcca17d9857ad2feb"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/resource/ros_tcp_endpoint",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/client.py",
+    "sha256": "b0ac19c5d7137d48cdf13f9e1ebcc1c3850b2217fa626ff81867241c0b5bdab9"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/communication.py",
+    "sha256": "001560af311014edb0ea283202df1bd76e6652407084aac03fa95744698379f7"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/default_server_endpoint.py",
+    "sha256": "79f097e223ac3c6d2db6bd48a96bc07df73649d994c2697fd08ce0a41cd1bc1b"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/exceptions.py",
+    "sha256": "11b9e9cb79ef338651cce71a01f43dcbaedf69dbb549e1c2ca666655bf47fb89"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/publisher.py",
+    "sha256": "4cbee08725dcb9b8ca499e37fe08a0f8191dd70e1d566f9c1783a65a18852ce8"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/server.py",
+    "sha256": "1f8f2e8fcae82ddb1baf35ec021a0a463c6d28f5a45b60eede86f7fd283fd078"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/service.py",
+    "sha256": "3c5846d73e15cda5728029f98c6506052d127f6031b5341de994c3a608c69e90"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/subscriber.py",
+    "sha256": "426a709c6ab5f7e1aefc0123ddec360b840ee6a5aa0563ffb70bf49cc5a25a1e"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/tcp_sender.py",
+    "sha256": "4b80d6293124607c4b4626de06f306f82f9d9e4e75c14f12c8ed2dd9a7535949"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/thread_pauser.py",
+    "sha256": "e77e9d066ffc56edeaf6b03da78cd2ffd876f199bccfb43422357a0228355636"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/unity_service.py",
+    "sha256": "698217f3e9a672674ca4ac0acd5363de275b640f85c19b4e355454c060879d21"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/ros_tcp_endpoint/__init__.py",
+    "sha256": "91df7b4911bec6b93ef86e714db928880cdb0a50f678ca060ca24080cf87cc2d"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/test/test_copyright.py",
+    "sha256": "8eaa812742516cf50879903b464817cf1b2aa0fad58ed1d3cee89c9d22bdfdf2"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/test/test_flake8.py",
+    "sha256": "e790fe077d87157c826b872ff83d49a229899d0b1730935932ba7821c5664768"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/test/test_pep257.py",
+    "sha256": "25c7864790bd41edfcd00211628edf237e4abf632847c54edfa3573775dcb838"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.github/ISSUE_TEMPLATE/bug_report.md",
+    "sha256": "356b46234384e6ff9a2b5a0abe4363aa9364e9d599d6a7a92741831a13f5f6e7"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.github/ISSUE_TEMPLATE/config.yml",
+    "sha256": "93e2b712fef6b229e53b8111505caca74225d8461748f58d1fd2a6746a4f0d23"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.github/ISSUE_TEMPLATE/feature_request.md",
+    "sha256": "1f48c52f209a971b8e7eae4120144d28fcf8ee38a7778a7b4d8cf1ab356617d2"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.github/workflows/jira-link.yaml",
+    "sha256": "d71980408f3d7f51c5a61263484f125ca43ba0b71222bcb76ecbf9b17df1ec10"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.github/workflows/pre-commit.yaml",
+    "sha256": "5f8f620a6599258f6c63b2f342064fdb84cbfd8fdf6ebd4cf6f732a2c080bafa"
+  },
+  {
+    "path": "ros/src/ROS-TCP-Endpoint/.github/workflows/stale.yaml",
+    "sha256": "231e470beec8241c82c6eafb69c786e415cec91fabf17616c650a3fb0de954e0"
+  }
+]

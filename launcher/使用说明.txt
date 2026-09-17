@@ -1,0 +1,11 @@
+首次安装请打开仓库根目录的 README.md，运行 scripts/setup-windows.ps1。
+config.json由安装器生成，不能沿用其他电脑的Windows路径和WSL用户名。
+
+软件模式：仅打开软件，ROS桥接dry-run，不发送实机运动目标。
+实机模式：单独确认后动态查找USB-CAN、挂载WSL、检查反馈并使能，Play由操作者手动点击。
+驱动速度75%，夹爪100mm开口/0mm闭合，闭合effort接口设置3N。
+Unity控制键位和温度示例请查看 README.md。
+
+六轴不动修复按钮处理发布配置及连接问题，无法修复机械故障、断电、追踪失效。
+ROS日志在WSL用户 ~/.local/state/surf-launcher，窗口日志在launcher/logs。
+停发命令并非物理急停，实机操作前确认现场安全流程。

@@ -1,0 +1,27 @@
+servo_server:
+  use_gazebo: false # 我们在 RViz 里测试，不连真实的物理引擎
+  status_topic: ~/status 
+
+  # 监听的话题配置 (核心！)
+  # 我们后续将直接往这个话题发速度指令
+  command_in_type: "speed_units" 
+  command_timeout: 0.1 # 如果 0.1 秒没收到新指令，马上刹车
+  command_out_type: trajectory_msgs/JointTrajectory
+  command_out_topic: /fake_joint_trajectory_controller/joint_trajectory
+
+  publish_period: 0.034 # 控制输出频率 (~30Hz)
+
+  # 你的机械臂组名
+  move_group_name: arm
+
+  # 关节限速配置
+  joint_topic: /joint_states
+  # 碰撞检测配置
+  check_collisions: false # 为了追求极致响应，先关掉自我防碰撞
+  collision_check_rate: 10.0
+  collision_check_type: threshold_distance
+
+  # 雅可比矩阵奇点处理 (防抽风)
+  lower_singularity_threshold: 17.0
+  hard_stop_singularity_threshold: 30.0
+  joint_limit_margin: 0.1
