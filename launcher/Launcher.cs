@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -22,6 +22,7 @@ public class LauncherConfig
     public string Distro { get; set; }
     public string Backend { get; set; }
     public string WslHome { get; set; }
+    public bool UnityOnly { get; set; }
 }
 
 public class Result { public int Code; public string Output; public string Error; }
@@ -175,6 +176,7 @@ public sealed class LauncherForm : Form
 
     async Task<Dictionary<string, object>> Backend(string action)
     {
+        if (cfg.UnityOnly) throw new Exception("当前为 Unity 预览安装。连接实机前请运行 scripts/setup-windows.ps1 完成 ROS 安装。");
         EnsureWsl();
         var r = await Task.Run(() => Runner.Run("wsl.exe", "-d " + Runner.Q(cfg.Distro) +
             " -- bash " + Runner.Q(cfg.Backend) + " " + action, 115));
@@ -226,6 +228,14 @@ public sealed class LauncherForm : Form
 
     async Task StartProject()
     {
+        if (cfg.UnityOnly)
+        {
+            LaunchUnity();
+            state.Text = "Unity 预览模式 · 未启动 ROS 或实机";
+            details.Text = "打开 Assets/OutdoorsScene.unity；温度示例为 SIM 模拟数据。";
+            Log("预览安装成功。完整 ROS 安装请运行 scripts/setup-windows.ps1。");
+            return;
+        }
         state.Text = "正在启动 WSL 和 ROS 服务…";
         Log("加载统一 ROS 环境，检查冲突和通信服务。");
         monitor = true; // Allow cleanup even if startup fails part-way.
@@ -392,7 +402,7 @@ public static class Program
         string root = AppDomain.CurrentDomain.BaseDirectory;
         if (!File.Exists(Path.Combine(root, "config.json")))
         {
-            MessageBox.Show("首次使用请先在仓库根目录运行 scripts/setup-windows.ps1。\n它会生成本机配置并创建桌面快捷方式。", "SURF 首次安装");
+            MessageBox.Show("首次使用请双击仓库根目录的 Install-Preview.cmd；连接实机前运行 scripts/setup-windows.ps1。\n它会生成本机配置并创建桌面快捷方式。", "SURF 首次安装");
             return;
         }
         if (args.Contains("--diagnostic"))

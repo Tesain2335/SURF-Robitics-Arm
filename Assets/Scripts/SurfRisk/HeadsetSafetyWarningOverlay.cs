@@ -27,6 +27,7 @@ public sealed class HeadsetSafetyWarningOverlay : MonoBehaviour
     private RectTransform canvasRect;
     private Transform uiRoot;
     private Font uiFont;
+    private RectTransform legendPanel;
     private float nextZoneRefresh;
     private readonly List<SafetyTemperatureZone> removedZones = new();
     public Camera ViewCamera => headsetCamera;
@@ -48,6 +49,7 @@ public sealed class HeadsetSafetyWarningOverlay : MonoBehaviour
         AttachCanvasToCamera();
         if (Time.unscaledTime >= nextZoneRefresh) { RefreshZones(); nextZoneRefresh = Time.unscaledTime + 0.5f; }
         UpdateZoneFrames();
+        if (legendPanel && canvasRect) legendPanel.localScale = Vector3.one * Mathf.Min(1f, Mathf.Max(0.1f, (canvasRect.sizeDelta.x - 48f) / 370f));
     }
 
     public void SetZones(SafetyTemperatureZone[] nextZones)
@@ -151,7 +153,7 @@ public sealed class HeadsetSafetyWarningOverlay : MonoBehaviour
             }
 
             ui.SetVisible(true);
-            ui.SetRect(rect);
+            ui.SetRect(rect, canvasRect.sizeDelta);
             ui.SetColor(GetWarningColor(zone.Level));
             ui.SetText(GetZoneLabel(zone));
         }
@@ -301,6 +303,7 @@ public sealed class HeadsetSafetyWarningOverlay : MonoBehaviour
         GameObject panelObject = new GameObject("Temperature Legend");
         panelObject.transform.SetParent(uiRoot, false);
         RectTransform panel = panelObject.AddComponent<RectTransform>();
+        legendPanel = panel;
         panel.anchorMin = new Vector2(0f, 1f);
         panel.anchorMax = new Vector2(0f, 1f);
         panel.pivot = new Vector2(0f, 1f);
@@ -451,10 +454,23 @@ public sealed class HeadsetSafetyWarningOverlay : MonoBehaviour
                 root.gameObject.SetActive(visible);
         }
 
-        public void SetRect(Rect rect)
+        public void SetRect(Rect rect, Vector2 canvasSize)
         {
             root.anchoredPosition = new Vector2(rect.xMin, rect.yMin);
             root.sizeDelta = new Vector2(rect.width, rect.height);
+            // Labels have a readable width independent of tiny/distant object bounds.
+            // Keep the complete label inside the viewport, including near its top edge.
+            RectTransform textRect = label.rectTransform;
+            float width = Mathf.Min(260f, Mathf.Max(1f, canvasSize.x - 24f));
+            const float height = 90f;
+            float x = Mathf.Clamp(rect.xMin, -canvasSize.x * .5f + 12f, canvasSize.x * .5f - width - 12f);
+            float y = rect.yMax + 8f;
+            if (y + height > canvasSize.y * .5f - 12f) y = rect.yMin - height - 8f;
+            y = Mathf.Clamp(y, -canvasSize.y * .5f + 12f, canvasSize.y * .5f - height - 12f);
+            textRect.anchorMin = textRect.anchorMax = Vector2.zero;
+            textRect.pivot = Vector2.zero;
+            textRect.sizeDelta = new Vector2(width, height);
+            textRect.anchoredPosition = new Vector2(x - rect.xMin, y - rect.yMin);
         }
 
         public void SetColor(Color color)

@@ -4,7 +4,23 @@
 
 包含：Piper URDF/FK/位置IK、六轴反馈对齐、键盘/VR互斥控制、右摇杆双轴腕部控制、夹爪开合、VR视角重定位、模拟温度分级与视野警示、ROS桥接输入保护、SURF一键启动与六轴修复按钮。
 
-## 第一次在新电脑安装
+## 新电脑先运行（不需要 ROS 或机械臂）
+
+1. 下载本仓库默认分支的**完整 ZIP**，先解压；不要在压缩包内运行，也不要只下载 EXE。
+2. 安装 Unity Hub 和 Unity **6000.4.11f1**。
+3. 双击根目录 **Install-Preview.cmd**，会编译启动器并生成桌面 **SURF 一键启动**。
+4. 双击桌面快捷方式打开 Unity，打开 `Assets/OutdoorsScene.unity`。首次包导入需要网络。
+
+Unity 不在默认路径时：
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-windows.ps1 -UnityOnly -Unity 'D:\Unity\6000.4.11f1\Editor\Unity.exe'
+```
+
+此模式只打开 Unity，不调用 WSL、ROS 或启动实机；温度显示是模拟数据。实机按钮会提示先完成完整安装。升级时解压到新文件夹并重新运行安装，避免快捷方式仍指向旧目录。
+
+温度标签已修正小物体时文字过窄、靠近视野顶部时文字出界以及窄窗口图例溢出。物体不在相机视野内时其框按设计隐藏；请在 Game 视图查看。头显实际双眼观感仍需在对应设备核对。
+
+## 第一次连接实机：完整安装
 
 1. Windows 10/11 x64，安装 Git、Unity Hub 和 **Unity 6000.4.11f1**（含Windows构建模块）。安装 WSL2、Ubuntu **22.04**，首次打开Ubuntu创建自己的普通用户。
 2. 在Ubuntu按ROS官方Humble安装流程安装 **ros-humble-desktop**。此仓库安装器以已安装Humble为前提，不修改你的Ubuntu软件源。
@@ -67,3 +83,6 @@ WSL发行版名称用 `wsl -l -v` 查看，通过 `-Distro` 设置。`-Workspace
 首次实际运行时必须确认传感器/反馈、ROS话题、机械臂和夹爪规格。默认目标机器人为Piper六轴和100mm夹爪；75%为驱动速度参数，不是测得的实际速度。停止发命令不等同物理急停。
 
 第三方来源与许可证见 `docs/THIRD_PARTY.md`。上游包保留各自许可证，本集成快照不替换上游授权。
+
+## 本次修复范围（2026-09-22）
+本次更新安装入口、启动器预览模式和温度标签布局。其余为9月17日集成快照，后续本机RealSense四画面/HUD等功能尚未纳入该分支；不把本次修复表述为全部本机最新功能同步。离线对照实验和实验数据继续排除。
